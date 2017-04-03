@@ -87,7 +87,7 @@ window.onload = function() {
     drawColors(position, radius);
 
     setInterval(function() {
-      radius *= 1.005;
+      radius *= 1.01;
       requestAnimationFrame(function() {
         paintSquare(position, 0, 0);
         drawColors(position, radius);
